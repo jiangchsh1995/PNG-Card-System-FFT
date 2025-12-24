@@ -1,0 +1,19 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+venv/
+
+# SGP 运行目录 
+input_images/*
+!input_images/.gitkeep
+output_signed/*
+!output_signed/.gitkeep
+output_reports/*
+!output_reports/.gitkeep
+
+# 配置文件 
+config.ini
+
+# IDE 设置
+.vscode/
+.idea/
